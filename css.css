@@ -1,0 +1,121 @@
+/*header start*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(rgb(214, 157, 157) 10px,rgb(163, 163, 214));
+}
+
+.navlogo{
+    margin-top: 0;
+    padding-left: 10px;
+}
+.header{
+    width: 100%;
+    background: rgb(189, 192, 158);
+    display: flex;
+    top: 0;
+    position: sticky;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    background: aliceblue;
+    border: 1px solid rgb(189, 192, 158);;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 140px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    border-radius: 13px;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li:hover{
+    background: aquamarine;
+    transition: ease-in 0.7s;
+    
+}
+.navbar ul li a:hover{
+    color: rgb(173, 32, 32);
+}
+
+.navbar ul ul{
+    display: none;
+
+}
+
+.navbar ul li:hover > ul{
+    display: block;
+}
+#ul{
+    margin: 0.9px;
+
+}
+/*header end*/
+
+
+/*footer start*/
+footer{
+    background: rgb(108, 122, 122);
+}
+
+.footerh1{
+    text-align: center;
+    color: white;
+    border: 3px solid rgb(100, 109, 109);;
+    border-radius: 5px;
+    width: 660px;
+    margin-left: 120px;
+    display: block;
+    
+}
+
+.footerh1:hover{
+    background: rgb(94, 109, 109);
+    color: rgb(206, 156, 156);
+}
+
+.footerp{
+    text-align: center;
+    color: antiquewhite;
+}
+.footerdiv{
+    text-align: center;
+    color: rgb(212, 186, 129);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+#footerp{
+    color: gainsboro;
+    text-indent: 50px;
+}
+/*footer end*/
+
+.h1section{
+    text-align: center;
+    color: aquamarine;
+    background: blueviolet;
+    width: 400px;
+    margin-left: 270px;
+    border-radius: 50px;
+}
+.h1section:hover{
+    background: aquamarine;
+    color: blueviolet;
+}
